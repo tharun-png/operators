@@ -16,24 +16,15 @@ Sample input and output 2:
 40
 
 output:
-# Function to calculate ages based on the total age input
 def calculate_ages(total_age):
-    # Calculate age of players X and Y
     a = (total_age - 10) / 3
-    
-    # Calculate age of player Z
     z = a + 10
-    
-    # Return the ages
     return int(a), int(a), int(z)
 
-# Input from user
 total_age = int(input("Enter the total age of the three players: "))
 
-# Calculate ages
 age_x, age_y, age_z = calculate_ages(total_age)
 
-# Output the ages
 print(age_x)
 print(age_y)
 print(age_z)
