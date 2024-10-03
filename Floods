@@ -14,7 +14,7 @@ Sample input and output 2:
 60000
 354000.00
 
-ans:
+output:
 X=int(input())
 Y=int(input())
 t1=X*.50*6
