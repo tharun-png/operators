@@ -24,16 +24,13 @@ Sample input and output 2:
 1
 17
 
-ans:
-# Read input values
+output:
 no_balls = int(input())
 wides = int(input())
 byes = int(input())
 leg_byes = int(input())
 penalties = int(input())
 
-# Calculate total extras
 total_extras = (no_balls + wides + byes + leg_byes + (5 * penalties))
 
-# Output the result
 print(total_extras)
