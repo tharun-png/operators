@@ -11,17 +11,22 @@ Sample Input
 4
 6
 8
-output:
-import math
+Sample Output
+The distance between Ajay's house and Chandru's house is 5.00
 
-def calculate_distance(x1, y1, x2, y2):
-    return math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+Solution:
+import math
 
 x1 = int(input())
 y1 = int(input())
 x2 = int(input())
 y2 = int(input())
 
-distance = calculate_distance(x1, y1, x2, y2)
+distance = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
 
-print(f"{distance:.2f}")
+print(f"The distance between Ajay's house and Chandru's house is {distance:.2f}")
+
+
+
+
+
