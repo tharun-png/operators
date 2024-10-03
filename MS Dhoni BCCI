@@ -21,7 +21,7 @@ Sample Input and Output2:
 52.63 10.53 36.84
 Note: Bold highlighted is the output
 
-ans)
+output:
 s=int(input ())
 b=int(input ())
 e=int(input ())
