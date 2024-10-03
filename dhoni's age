@@ -12,7 +12,7 @@ Sample Input and Output2:
 21
 Note: Bold highlighted is the output value.
 
-ans:
+output:
 cAge=int(input())
 deviAge =((cAge+3)*4)-3
 print(deviAge)
